@@ -1,0 +1,6 @@
+* {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 50px auto 50px;
+    grid-template-areas: "icon icon icon icon icon icon icon icon logo logo" " content content content content content side side side side side " " footer footer footer footer footer footer footer footer footer footer";
+}
